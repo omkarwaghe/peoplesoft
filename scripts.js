@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
     const blogPosts = [
         {
-            title: "My First Blog Post",
-            content: "This is the content of my first blog post.",
+            title: "Integration Broker",
+            content: "Rest API Development",
         },
         {
-            title: "Another Blog Post",
-            content: "This is the content of another blog post.",
+            title: "Component Interface",
+            content: "Component Interface functions",
         },
         {
-            title: "Yet Another Blog Post",
-            content: "This is the content of yet another blog post.",
+            title: "Peoplecode Development",
+            content: "Learnings",
         },
     ];
 
