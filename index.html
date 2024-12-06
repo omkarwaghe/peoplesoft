@@ -1,12 +1,61 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GFG</title>
+    <title>Three Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .card-container {
+            display: flex;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            color: #666;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World this is my first web page.</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Image 1">
+            <h3>Card 1</h3>
+            <p>This is the first card.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Image 2">
+            <h3>Card 2</h3>
+            <p>This is the second card.</p>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/150" alt="Image 3">
+            <h3>Card 3</h3>
+            <p>This is the third card.</p>
+        </div>
+    </div>
 </body>
 </html>
