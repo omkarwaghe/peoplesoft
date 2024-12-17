@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const blogPosts = [
         {
             title: "Integration Broker",
-            content: "Synchronous and Asynchronous method <br> import PS_PT:Integration:IRequestHandler",
+            content: 'Synchronous and Asynchronous method <br> <a href="IntegrationBroker.html">Read more</a>',
         },
         {
             title: "Component Interface",
