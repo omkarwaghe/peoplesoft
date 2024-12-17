@@ -12,6 +12,10 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Peoplecode Development",
             content: "Learnings",
         },
+        {
+            title: "PeopleSoft Architecture",
+            content: "Browser <-> Web Server <-> Application Server -> process Scheduler services -> RDBMS"
+        },
     ];
 
     const blogPostsContainer = document.getElementById("blog-posts");
